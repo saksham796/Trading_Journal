@@ -1,1 +1,1 @@
-web: gunicorn Trading_Journal.wsgi:application
+web: gunicorn Trading_Journal.wsgi:application --bind 0.0.0.0:$PORT
