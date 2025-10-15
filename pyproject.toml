@@ -1,0 +1,12 @@
+[project]
+name = "trading-journal"
+version = "0.1.0"
+description = "Secure, end-to-end encrypted trading journal built with Django"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "django>=5.2.7",
+    "cryptography>=43.0.1",
+    "gunicorn>=22.0.0",
+    "whitenoise>=6.7.0",
+]
