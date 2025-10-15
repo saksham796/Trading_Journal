@@ -1,1 +1,1 @@
-web: PYTHONPATH=. gunicorn trading_journal.wsgi:application
+web: gunicorn Trading_Journal.wsgi:application
